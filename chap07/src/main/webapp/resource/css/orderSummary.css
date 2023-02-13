@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: rgb(255, 255, 241);
+}
+
+#frame {
+	margin: auto;
+	margin-top: 100px;
+	border: solid 3px rgb(0, 120, 151);
+	background-color: white;
+	width: 350px;
+	height: 500px;
+}
+
+h1 {
+	background-color: rgb(228, 213, 187);
+	text-align: center;
+	margin-top: 0px;
+}
+
+.subtitle {
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+
+#subtitle1 {
+	margin-top: -10px;
+}
+
+#subtitle2 {
+	margin-top: 10px;
+}
+
+.info {
+	margin-left: 20px;
+}
+
+span {
+	font-weight: bold;
+}

@@ -1,0 +1,77 @@
+@charset "EUC-KR";
+
+* {	
+	box-sizing: border-box;
+}
+
+html {
+	background-color: rgb(255, 255, 241);	
+}
+
+#frame {
+	margin: auto;
+	margin-top: 50px;
+	border: solid 3px black;
+	width: 650px;
+	height: 650px;
+}
+
+#title {
+	text-align: center;
+	margin: 10px;
+}
+
+[id^="container"] {
+	background-color: rgb(228, 213, 187);
+	margin: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	padding-top: 0px; 
+}
+
+.subtitle {
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+.info {
+	display: inline-block;
+	width: 130px;
+}
+
+#container1 > div {
+	margin-left: 10px;
+}
+
+.long {
+	width: 300px;
+}
+
+#container2 {
+	height: 330px;
+}
+
+#container2 > div {
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+#crust > input, #toppings > input {
+	width : 25px;
+	margin-left: 10px;
+}
+
+.category {
+	font-weight: bold;
+}
+
+
+#post {
+	margin: 5px;
+	text-align: center;
+}
+
+#post > input {
+	font-size: 20px;
+	height: 30px;
+}
